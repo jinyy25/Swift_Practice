@@ -1,0 +1,6 @@
+framework module Pods_NiceAppTests {
+  umbrella header "Pods-NiceAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

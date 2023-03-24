@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		453679ED28152AC90099720D /* 103492-youre-a-star.json in Resources */ = {isa = PBXBuildFile; fileRef = 453679EC28152AC90099720D /* 103492-youre-a-star.json */; };
+		45AC2B2C2811A0E000857ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B2B2811A0E000857ADA /* AppDelegate.swift */; };
+		45AC2B2E2811A0E000857ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B2D2811A0E000857ADA /* SceneDelegate.swift */; };
+		45AC2B302811A0E000857ADA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B2F2811A0E000857ADA /* MainViewController.swift */; };
+		45AC2B332811A0E000857ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AC2B312811A0E000857ADA /* Main.storyboard */; };
+		45AC2B352811A0E100857ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AC2B342811A0E100857ADA /* Assets.xcassets */; };
+		45AC2B382811A0E100857ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AC2B362811A0E100857ADA /* LaunchScreen.storyboard */; };
+		45AC2B432811A0E100857ADA /* NiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B422811A0E100857ADA /* NiceAppTests.swift */; };
+		45AC2B4D2811A0E100857ADA /* NiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B4C2811A0E100857ADA /* NiceAppUITests.swift */; };
+		45AC2B4F2811A0E100857ADA /* NiceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AC2B4E2811A0E100857ADA /* NiceAppUITestsLaunchTests.swift */; };
+		64B758EEFBA2EE212DC2F596 /* Pods_NiceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22484EDFF5FC89958BA7E6D1 /* Pods_NiceAppTests.framework */; };
+		72CEE06C2E45A6BE5DE6A0F6 /* Pods_NiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986489FF420B98CA5A49E19D /* Pods_NiceApp.framework */; };
+		782D7EF289397B87B9D51DC0 /* Pods_NiceApp_NiceAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4077AC89BE49040D125E3E /* Pods_NiceApp_NiceAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45AC2B3F2811A0E100857ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AC2B202811A0E000857ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AC2B272811A0E000857ADA;
+			remoteInfo = NiceApp;
+		};
+		45AC2B492811A0E100857ADA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AC2B202811A0E000857ADA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45AC2B272811A0E000857ADA;
+			remoteInfo = NiceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176780E9FC2B8AFF95C95651 /* Pods-NiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		22484EDFF5FC89958BA7E6D1 /* Pods_NiceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4077AC89BE49040D125E3E /* Pods_NiceApp_NiceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceApp_NiceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453679EC28152AC90099720D /* 103492-youre-a-star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "103492-youre-a-star.json"; path = "../../../Downloads/103492-youre-a-star.json"; sourceTree = "<group>"; };
+		45AC2B282811A0E000857ADA /* NiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC2B2B2811A0E000857ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45AC2B2D2811A0E000857ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45AC2B2F2811A0E000857ADA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45AC2B322811A0E000857ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45AC2B342811A0E100857ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AC2B372811A0E100857ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45AC2B392811A0E100857ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AC2B3E2811A0E100857ADA /* NiceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC2B422811A0E100857ADA /* NiceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceAppTests.swift; sourceTree = "<group>"; };
+		45AC2B482811A0E100857ADA /* NiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC2B4C2811A0E100857ADA /* NiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceAppUITests.swift; sourceTree = "<group>"; };
+		45AC2B4E2811A0E100857ADA /* NiceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E6BBACBBA8A92B5F4AA9A18 /* Pods-NiceApp-NiceAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp-NiceAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp-NiceAppUITests/Pods-NiceApp-NiceAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		986489FF420B98CA5A49E19D /* Pods_NiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CE0695D59FA6D30540B9F7 /* Pods-NiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NiceAppTests/Pods-NiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7147FAD585C741DF230EDBA /* Pods-NiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.release.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		DF2C01ABF754DDDB340A4E47 /* Pods-NiceApp-NiceAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp-NiceAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NiceApp-NiceAppUITests/Pods-NiceApp-NiceAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3F1874CE665B3753FD190DF /* Pods-NiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-NiceAppTests/Pods-NiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AC2B252811A0E000857ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CEE06C2E45A6BE5DE6A0F6 /* Pods_NiceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B3B2811A0E100857ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B758EEFBA2EE212DC2F596 /* Pods_NiceAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B452811A0E100857ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D7EF289397B87B9D51DC0 /* Pods_NiceApp_NiceAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450861C4066E8ABC91CDB4FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986489FF420B98CA5A49E19D /* Pods_NiceApp.framework */,
+				2F4077AC89BE49040D125E3E /* Pods_NiceApp_NiceAppUITests.framework */,
+				22484EDFF5FC89958BA7E6D1 /* Pods_NiceAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45AC2B1F2811A0E000857ADA = {
+			isa = PBXGroup;
+			children = (
+				45AC2B2A2811A0E000857ADA /* NiceApp */,
+				45AC2B412811A0E100857ADA /* NiceAppTests */,
+				45AC2B4B2811A0E100857ADA /* NiceAppUITests */,
+				45AC2B292811A0E000857ADA /* Products */,
+				57A0721D7F9E7C1C6C6B6AA2 /* Pods */,
+				450861C4066E8ABC91CDB4FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45AC2B292811A0E000857ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AC2B282811A0E000857ADA /* NiceApp.app */,
+				45AC2B3E2811A0E100857ADA /* NiceAppTests.xctest */,
+				45AC2B482811A0E100857ADA /* NiceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AC2B2A2811A0E000857ADA /* NiceApp */ = {
+			isa = PBXGroup;
+			children = (
+				453679EC28152AC90099720D /* 103492-youre-a-star.json */,
+				45AC2B5B2811A0EC00857ADA /* ViewControllers */,
+				45AC2B2B2811A0E000857ADA /* AppDelegate.swift */,
+				45AC2B2D2811A0E000857ADA /* SceneDelegate.swift */,
+				45AC2B312811A0E000857ADA /* Main.storyboard */,
+				45AC2B342811A0E100857ADA /* Assets.xcassets */,
+				45AC2B362811A0E100857ADA /* LaunchScreen.storyboard */,
+				45AC2B392811A0E100857ADA /* Info.plist */,
+			);
+			path = NiceApp;
+			sourceTree = "<group>";
+		};
+		45AC2B412811A0E100857ADA /* NiceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				45AC2B422811A0E100857ADA /* NiceAppTests.swift */,
+			);
+			path = NiceAppTests;
+			sourceTree = "<group>";
+		};
+		45AC2B4B2811A0E100857ADA /* NiceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45AC2B4C2811A0E100857ADA /* NiceAppUITests.swift */,
+				45AC2B4E2811A0E100857ADA /* NiceAppUITestsLaunchTests.swift */,
+			);
+			path = NiceAppUITests;
+			sourceTree = "<group>";
+		};
+		45AC2B5B2811A0EC00857ADA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45AC2B2F2811A0E000857ADA /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57A0721D7F9E7C1C6C6B6AA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				176780E9FC2B8AFF95C95651 /* Pods-NiceApp.debug.xcconfig */,
+				B7147FAD585C741DF230EDBA /* Pods-NiceApp.release.xcconfig */,
+				4E6BBACBBA8A92B5F4AA9A18 /* Pods-NiceApp-NiceAppUITests.debug.xcconfig */,
+				DF2C01ABF754DDDB340A4E47 /* Pods-NiceApp-NiceAppUITests.release.xcconfig */,
+				99CE0695D59FA6D30540B9F7 /* Pods-NiceAppTests.debug.xcconfig */,
+				E3F1874CE665B3753FD190DF /* Pods-NiceAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AC2B272811A0E000857ADA /* NiceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC2B522811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceApp" */;
+			buildPhases = (
+				A4A12D6E3BE63B6CC3348D7B /* [CP] Check Pods Manifest.lock */,
+				45AC2B242811A0E000857ADA /* Sources */,
+				45AC2B252811A0E000857ADA /* Frameworks */,
+				45AC2B262811A0E000857ADA /* Resources */,
+				22317EF97D5FA26025A920B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceApp;
+			productName = NiceApp;
+			productReference = 45AC2B282811A0E000857ADA /* NiceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45AC2B3D2811A0E100857ADA /* NiceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC2B552811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceAppTests" */;
+			buildPhases = (
+				242C62427E827BC495613500 /* [CP] Check Pods Manifest.lock */,
+				45AC2B3A2811A0E100857ADA /* Sources */,
+				45AC2B3B2811A0E100857ADA /* Frameworks */,
+				45AC2B3C2811A0E100857ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AC2B402811A0E100857ADA /* PBXTargetDependency */,
+			);
+			name = NiceAppTests;
+			productName = NiceAppTests;
+			productReference = 45AC2B3E2811A0E100857ADA /* NiceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45AC2B472811A0E100857ADA /* NiceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AC2B582811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceAppUITests" */;
+			buildPhases = (
+				DBBE54941080F3D2B99EBB01 /* [CP] Check Pods Manifest.lock */,
+				45AC2B442811A0E100857ADA /* Sources */,
+				45AC2B452811A0E100857ADA /* Frameworks */,
+				45AC2B462811A0E100857ADA /* Resources */,
+				AB1DB315F390F19439D3E4AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AC2B4A2811A0E100857ADA /* PBXTargetDependency */,
+			);
+			name = NiceAppUITests;
+			productName = NiceAppUITests;
+			productReference = 45AC2B482811A0E100857ADA /* NiceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AC2B202811A0E000857ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					45AC2B272811A0E000857ADA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					45AC2B3D2811A0E100857ADA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 45AC2B272811A0E000857ADA;
+					};
+					45AC2B472811A0E100857ADA = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 45AC2B272811A0E000857ADA;
+					};
+				};
+			};
+			buildConfigurationList = 45AC2B232811A0E000857ADA /* Build configuration list for PBXProject "NiceApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AC2B1F2811A0E000857ADA;
+			productRefGroup = 45AC2B292811A0E000857ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AC2B272811A0E000857ADA /* NiceApp */,
+				45AC2B3D2811A0E100857ADA /* NiceAppTests */,
+				45AC2B472811A0E100857ADA /* NiceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AC2B262811A0E000857ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC2B382811A0E100857ADA /* LaunchScreen.storyboard in Resources */,
+				453679ED28152AC90099720D /* 103492-youre-a-star.json in Resources */,
+				45AC2B352811A0E100857ADA /* Assets.xcassets in Resources */,
+				45AC2B332811A0E000857ADA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B3C2811A0E100857ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B462811A0E100857ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22317EF97D5FA26025A920B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		242C62427E827BC495613500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A12D6E3BE63B6CC3348D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB1DB315F390F19439D3E4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp-NiceAppUITests/Pods-NiceApp-NiceAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp-NiceAppUITests/Pods-NiceApp-NiceAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceApp-NiceAppUITests/Pods-NiceApp-NiceAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBBE54941080F3D2B99EBB01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceApp-NiceAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AC2B242811A0E000857ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC2B302811A0E000857ADA /* MainViewController.swift in Sources */,
+				45AC2B2C2811A0E000857ADA /* AppDelegate.swift in Sources */,
+				45AC2B2E2811A0E000857ADA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B3A2811A0E100857ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC2B432811A0E100857ADA /* NiceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC2B442811A0E100857ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AC2B4D2811A0E100857ADA /* NiceAppUITests.swift in Sources */,
+				45AC2B4F2811A0E100857ADA /* NiceAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45AC2B402811A0E100857ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AC2B272811A0E000857ADA /* NiceApp */;
+			targetProxy = 45AC2B3F2811A0E100857ADA /* PBXContainerItemProxy */;
+		};
+		45AC2B4A2811A0E100857ADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45AC2B272811A0E000857ADA /* NiceApp */;
+			targetProxy = 45AC2B492811A0E100857ADA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45AC2B312811A0E000857ADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AC2B322811A0E000857ADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45AC2B362811A0E100857ADA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AC2B372811A0E100857ADA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45AC2B502811A0E100857ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AC2B512811A0E100857ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AC2B532811A0E100857ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176780E9FC2B8AFF95C95651 /* Pods-NiceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45AC2B542811A0E100857ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7147FAD585C741DF230EDBA /* Pods-NiceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45AC2B562811A0E100857ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CE0695D59FA6D30540B9F7 /* Pods-NiceAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceApp.app/NiceApp";
+			};
+			name = Debug;
+		};
+		45AC2B572811A0E100857ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F1874CE665B3753FD190DF /* Pods-NiceAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiceApp.app/NiceApp";
+			};
+			name = Release;
+		};
+		45AC2B592811A0E100857ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6BBACBBA8A92B5F4AA9A18 /* Pods-NiceApp-NiceAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiceApp;
+			};
+			name = Debug;
+		};
+		45AC2B5A2811A0E100857ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2C01ABF754DDDB340A4E47 /* Pods-NiceApp-NiceAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mine.NiceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AC2B232811A0E000857ADA /* Build configuration list for PBXProject "NiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC2B502811A0E100857ADA /* Debug */,
+				45AC2B512811A0E100857ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC2B522811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC2B532811A0E100857ADA /* Debug */,
+				45AC2B542811A0E100857ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC2B552811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC2B562811A0E100857ADA /* Debug */,
+				45AC2B572811A0E100857ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AC2B582811A0E100857ADA /* Build configuration list for PBXNativeTarget "NiceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AC2B592811A0E100857ADA /* Debug */,
+				45AC2B5A2811A0E100857ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AC2B202811A0E000857ADA /* Project object */;
+}
